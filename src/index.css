@@ -25,7 +25,7 @@
     @apply absolute left-0 w-full rounded-xl text-center text-white opacity-0 shadow-2xl transition duration-300 group-hover:opacity-90;
   }
   .card {
-    @apply mx-auto h-[30rem] w-10/12 overflow-hidden rounded-xl bg-[#233554] opacity-90 transition-transform;
+    @apply mx-auto h-[30rem] w-10/12 overflow-hidden rounded-xl bg-[#233554] opacity-90 transition-transform transition-transform hover:scale-105;
   }
   .card-text {
     @apply h-2/6 w-full bg-accent  text-center text-white;

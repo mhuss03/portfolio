@@ -72,8 +72,8 @@ function Skills() {
             <div className="popup">MySQL</div>
           </div>
           <div className="skill-icon group">
-            <img src="./assets/mongodb-icon.svg" />
-            <div className="popup">MongoDB</div>
+            <img src="./assets/flask-icon.svg" />
+            <div className="popup">Flask</div>
           </div>
           <div className="skill-icon group">
             <img src="./assets/nodejs-icon.svg" />

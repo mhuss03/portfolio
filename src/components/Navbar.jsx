@@ -2,7 +2,9 @@ function Navbar() {
   return (
     <>
       <ul className="mx-auto mb-32 flex max-w-5xl items-center justify-between px-6 py-4 font-semibold text-white">
-        <img src="./assets/MH-logos_white-copy.png" className="w-12" />
+        <a href="">
+          <img src="./assets/MH-logos_white-copy.png" className="w-12" />
+        </a>
         <div className="flex">
           <li className="nav-list">
             <a href="#about-id" className="">

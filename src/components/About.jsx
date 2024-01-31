@@ -1,11 +1,11 @@
 import Typewriter from "typewriter-effect";
 
 function About() {
-  const greetingText = [
-    "$ Hi, my name is Muhammad Hussain I am a Junior Full stack Developer Based in London",
-    "$ Interests in robotics and 3d printing",
-    "$ Love problem Solving",
-  ];
+  const greetingText =
+    "$ Hello, I'm Muhammad Hussain, an aspiring Junior Full Stack Developer based in London.<br />" +
+    "$ Driven by a passion for coding and a commitment to continuous learning.<br />" +
+    "$ Excited to apply my skills in problem-solving to real-world projects.<br />" +
+    "$ Keen interest in robotics and 3D printing, showcasing a curiosity for emerging technologies.";
 
   return (
     <>
@@ -22,17 +22,15 @@ function About() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString(
-                  "$ Hi, my name is Muhammad Hussain I am a Junior Full stack Developer Based in London<br /> $ Interests in robotics and 3d printing<br /> $ Love problem Solving",
-                )
+                .typeString(greetingText)
                 .pauseFor(2500)
-                .deleteAll()
+                // .deleteAll()
                 .start();
             }}
             options={{
               // loop: true,
               delay: 40,
-              // deleteSpeed: 20,
+              // deleteSpeed: 50,
             }}
           />
         </div>
