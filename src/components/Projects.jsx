@@ -21,7 +21,8 @@ function Projects() {
             experience.
           </p>
           <a
-            href=""
+            href="https://mhuss03.github.io/nahw-notes-app/"
+            target="_blank"
             className="inline-block rounded-md border-2 px-2 py-1 transition-colors hover:bg-white hover:text-accent"
           >
             <h2>View Project</h2>
@@ -58,7 +59,8 @@ function Projects() {
               note-taking, timer, and background music player.
             </p>
             <a
-              href=""
+              href="https://mhuss03.github.io/StudyApp/"
+              target="_blank"
               className="inline-block rounded-md border-2 px-2 py-1 transition-colors hover:bg-white hover:text-accent"
             >
               <h2>View Project</h2>
@@ -98,6 +100,7 @@ function Projects() {
             </p>
             <a
               href=""
+              target="_blank"
               className="inline-block rounded-md border-2 px-2 py-1 transition-colors hover:bg-white hover:text-accent"
             >
               <h2>View Project</h2>
@@ -136,7 +139,8 @@ function Projects() {
               note-taking, timer, and background music player.
             </p>
             <a
-              href=""
+              href="https://mhuss03.github.io/recipe-app/"
+              target="_blank"
               className="inline-block rounded-md border-2 px-2 py-1 transition-colors hover:bg-white hover:text-accent"
             >
               <h2>View Project</h2>
@@ -171,7 +175,8 @@ function Projects() {
               insights instantly with user-friendly graphs.
             </p>
             <a
-              href=""
+              href="https://mhuss03.github.io/ExpenseTracker/"
+              target="_blank"
               className="inline-block rounded-md border-2 px-2 py-1 transition-colors hover:bg-white hover:text-accent"
             >
               <h2>View Project</h2>
