@@ -34,7 +34,7 @@ function Projects() {
               <img src="./assets/js-icon.svg" className="project-icon" />
               <img src="./assets/storage-icon.svg" className="project-icon" />
             </div>
-            <a href="https://github.com/mhuss03/StudyApp" className="">
+            <a href="https://github.com/mhuss03/nahw-notes-app" className="">
               <img
                 src="./assets/github-icon.svg"
                 className="mt-1 w-8 rounded-md bg-primary p-1 transition-colors hover:bg-accent"
@@ -56,7 +56,7 @@ function Projects() {
             <h1 className="mb-1 font-bold md:text-xl">Study App</h1>
             <p className="mb-6 mt-3 px-2 text-xs md:text-sm">
               Streamlining study sessions with integrated tools - task tracker,
-              note-taking, timer, and background music player.
+              note-taking, timer, and background <Sound></Sound> player.
             </p>
             <a
               href="https://mhuss03.github.io/StudyApp/"
@@ -115,7 +115,7 @@ function Projects() {
                 <img src="./assets/flask-icon.svg" className="project-icon" />
                 <img src="./assets/sqlite-icon.svg" className="project-icon" />
               </div>
-              <a href="https://github.com/mhuss03/StudyApp" className="">
+              <a href="https://github.com/mhuss03/portfolio" className="">
                 <img
                   src="./assets/github-icon.svg"
                   className="mt-1 w-8 rounded-md bg-primary p-1 transition-colors hover:bg-accent"
@@ -155,7 +155,7 @@ function Projects() {
                 <img src="./assets/js-icon.svg" className="project-icon" />
                 <img src="./assets/mongodb-icon.svg" className="project-icon" />
               </div>
-              <a href="https://github.com/mhuss03/StudyApp" className="">
+              <a href="https://github.com/mhuss03/recipe-app" className="">
                 <img
                   src="./assets/github-icon.svg"
                   className="mt-1 w-8 rounded-md bg-primary p-1 transition-colors hover:bg-accent"
@@ -188,7 +188,7 @@ function Projects() {
                 <img src="./assets/css-icon.svg" className="project-icon" />
                 <img src="./assets/mysql-icon.svg" className="project-icon" />
               </div>
-              <a href="https://github.com/mhuss03/StudyApp" className="">
+              <a href="https://github.com/mhuss03/ExpenseTracker" className="">
                 <img
                   src="./assets/github-icon.svg"
                   className="mt-1 w-8 rounded-md bg-primary p-1 transition-colors hover:bg-accent"
