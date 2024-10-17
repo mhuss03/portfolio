@@ -56,7 +56,7 @@ function Projects() {
             <h1 className="mb-1 font-bold md:text-xl">Study App</h1>
             <p className="mb-6 mt-3 px-2 text-xs md:text-sm">
               Streamlining study sessions with integrated tools - task tracker,
-              note-taking, timer, and background <Sound></Sound> player.
+              note-taking, timer, and background sound player.
             </p>
             <a
               href="https://mhuss03.github.io/StudyApp/"
