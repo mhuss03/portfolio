@@ -23,15 +23,15 @@ function Skills() {
   // }, []);
 
   return (
-    <div className="mx-auto my-12 mb-32 max-w-6xl">
-      <div>
+    <div className="flex max-w-6xl flex-wrap justify-center">
+      <div className="flex h-auto w-screen flex-wrap items-center justify-center">
         <h1
-          className="mb-12 text-center text-4xl font-semibold text-stone-300"
+          className="mb-12 w-full text-center text-4xl font-semibold text-stone-300"
           id="skills-id"
         >
           Frontend Skills
         </h1>
-        <div className="flex justify-around">
+        <div className="flex flex-wrap justify-center gap-2">
           <div className="skill-icon group">
             <img src="./assets/js-icon.svg" />
             <div className="popup">JavaScript</div>
@@ -54,11 +54,11 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className="my-12 text-center text-4xl font-semibold text-stone-300">
+      <div className="">
+        <h1 className="my-12 w-full text-center text-4xl font-semibold text-stone-300">
           Backend Skills
         </h1>
-        <div className="flex justify-around">
+        <div className="flex flex-wrap justify-center gap-2">
           <div className="skill-icon group">
             <img src="./assets/python-icon.svg" />
             <div className="popup">Python</div>

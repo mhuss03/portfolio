@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <>
-      <ul className="mx-auto mb-32 flex max-w-5xl items-center justify-between px-6 py-4 font-semibold text-white">
+      <ul className="flex w-full items-center justify-between px-6 py-4 font-semibold text-white">
         <a href="">
           <img src="./assets/MH-logos_white-copy.png" className="w-12" />
         </a>
@@ -11,7 +11,7 @@ function Navbar() {
               About
             </a>
           </li>
-          <li className="nav-list">
+          <li className="nav-list hidden md:block">
             <a href="#skills-id">Skills</a>
           </li>
           <li className="nav-list">
@@ -20,7 +20,7 @@ function Navbar() {
           <li className="nav-list">
             <a href="Updated Resume.pdf">My CV</a>
           </li>
-          <li className="nav-list">
+          <li className="nav-list hidden md:block">
             <a href="#contact-id">Contact</a>
           </li>
         </div>
@@ -32,7 +32,7 @@ function Navbar() {
             <img
               src="./assets/linkedin-icon.svg"
               alt="linkedin-icon"
-              className="mr-6 w-12 rounded-xl transition-colors hover:bg-orange-600"
+              className="mr-6 hidden w-12 rounded-xl transition-colors hover:bg-orange-600  md:block"
             />
           </a>
           <a href="https://github.com/mhuss03" className="">

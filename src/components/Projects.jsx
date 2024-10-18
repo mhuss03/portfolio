@@ -1,7 +1,7 @@
 function Projects() {
   return (
     <>
-      <h1 id="projects-id" className="mb-12 text-center text-4xl text-white">
+      <h1 id="projects-id" className="w-full text-center text-4xl text-white">
         Projects
       </h1>
       <div className="card mb-24 max-w-4xl">

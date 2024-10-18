@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <ParticlesBackground />
-      <div className="w-screen px-2">
+      <div className="flex w-screen flex-wrap justify-center gap-10">
         <Navbar />
         <About />
         <Skills />
